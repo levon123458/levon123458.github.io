@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.portfolio{
+height: 700px;
+background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+text-transform: uppercase;
+
+h1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 60px;
+   padding-top:200px ;
+}
+p{
+    font-weight: 200;
+    text-shadow: 2px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    width: 160px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(18, 126, 189);
+    border: none;
+    color: white;
+}
+}
+.portfolio_text{
+    height: 300px;
+    text-align: center;
+    padding-top: 30px;
+
+    button{
+        width: 160px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(9, 31, 44);
+    border: none;
+    color: white;
+    }
+button:hover{
+    background-color: #cc7d15cb;
+    transition: 1s;
+}
+
+}
+.services{
+    
+    text-align: center;
+    background-color: #1d809f;
+    height: auto;
+    color: white;
+    
+    .services_card{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+       
+    }
+
+   
+    .cards{
+        width: 150px;
+        height: 250px;
+        background-color:#1d809f;
+        margin: 30px;
+    }
+    .div1{
+        width: 80px;
+        height: 80px;
+        padding-top: 15px;
+        border-radius: 50%;
+        background-color: aliceblue;
+        margin: auto;
+        
+
+
+    }
+    
+    svg{
+        width: 40px;
+        color: #1d809f;
+    }
+}
+
+#carouselExampleIndicators{
+    margin-top: 20px;
+}
+
+.cards_hover{
+    width: 60%;
+    height: auto;
+   
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+    div{
+        width: 370px;
+        height: 350px;
+        
+    }
+    img{
+        width: 100%;
+        height: 350px;
+    }
+    img:hover{
+       border-radius: 50% 20%;
+        transition: 1s;
+        opacity: 0.4;
+    }
+
+}
+
+// form{
+//     margin-top: 30px;
+//     width: 70%;
+//  padding-left: 400px;
+// }
+.div_registration{
+    margin-top: 30px;
+}
+.navbar-brand{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    text-shadow: 3px;
+    
+}
+.end{
+    height: 100px;
+    background-color: #1d809f;
+    text-align: center;
+    opacity: 0.7;
+}

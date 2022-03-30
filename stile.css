@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.portfolio {
+  height: 700px;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.portfolio h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 60px;
+  padding-top: 200px;
+}
+
+.portfolio p {
+  font-weight: 200;
+  text-shadow: 2px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.portfolio button {
+  width: 160px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #127ebd;
+  border: none;
+  color: white;
+}
+
+.portfolio_text {
+  height: 300px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.portfolio_text button {
+  width: 160px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #091f2c;
+  border: none;
+  color: white;
+}
+
+.portfolio_text button:hover {
+  background-color: #cc7d15cb;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.services {
+  text-align: center;
+  background-color: #1d809f;
+  height: auto;
+  color: white;
+}
+
+.services .services_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.services .cards {
+  width: 150px;
+  height: 250px;
+  background-color: #1d809f;
+  margin: 30px;
+}
+
+.services .div1 {
+  width: 80px;
+  height: 80px;
+  padding-top: 15px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  margin: auto;
+}
+
+.services svg {
+  width: 40px;
+  color: #1d809f;
+}
+
+#carouselExampleIndicators {
+  margin-top: 20px;
+}
+
+.cards_hover {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cards_hover div {
+  width: 370px;
+  height: 350px;
+}
+
+.cards_hover img {
+  width: 100%;
+  height: 350px;
+}
+
+.cards_hover img:hover {
+  border-radius: 50% 20%;
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 0.4;
+}
+
+.div_registration {
+  margin-top: 30px;
+}
+
+.navbar-brand {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 300;
+  text-shadow: 3px;
+}
+
+.end {
+  height: 100px;
+  background-color: #1d809f;
+  text-align: center;
+  opacity: 0.7;
+}
+/*# sourceMappingURL=stile.css.map */
